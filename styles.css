@@ -1,0 +1,163 @@
+body
+{
+  font-family:"Montserrat:Bold ";
+}
+.image-header{
+
+
+  width:50%;
+  height:90%;
+  transform:rotate(25deg);
+}
+
+.heading
+{
+  background-color:#ff4c68;
+  color:#fff;
+}
+h1
+{
+  font-family:"Montserrat:Bold ";
+  font-size:3rem;
+  line-height:1.5;
+}
+.container-fluid
+{
+  padding: 3%;
+
+}
+.navbar-brand
+{
+  font-size:2rem;
+
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.navbar{
+  padding-left:0;
+}
+.image
+{
+  height:100px;
+  width:100px;
+}
+.quality
+{
+  margin:6% 2%;
+}
+.quality-col{
+  text-align:center;
+  padding:5%;
+
+}
+p
+{
+  font-size:1rem;
+  color:#8f8f8f;
+}
+.icon
+{
+  color:#ef8172;
+  margin-bottom:1rem;
+
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+#offer
+{
+  padding:6% 2%;
+  text-align:center;
+  background-color:#ff4c68;
+  color:#fff;
+
+}
+
+.offering
+{
+
+height:12rem;
+width:12rem;
+border-radius:100%;
+text-align:center;
+margin: 3rem;
+
+}
+.offer-header
+{
+
+  font-size:3rem;
+  line-height:1.5;
+  font-family:"Montserrat:Bold ";
+
+}
+h3
+{
+  margin: 1rem 0;
+  font-size:1.5rem;
+}
+
+.price_header
+{
+  margin : 3rem 0;
+  text-align:center;
+}
+#pricing{
+  margin:10rem 0;
+  padding: 2rem;
+
+}
+.card-cols
+{
+  text-align:center;
+  padding:0;
+
+}
+
+.myfooter{
+    background-color:#ef8172;
+    color:#fff;
+    margin:0;
+    height:4rem;
+    text-align:center;
+
+}
+
+#footer{
+background-color:#ef8172;
+  text-align:center;
+
+
+
+}
+.foot-img
+{
+  padding :1rem 2rem;
+}
+
+.foot-img:hover
+{
+  color:#ff4c68;
+}
+
+
+
+@media (max-width:1000px)
+{
+
+  .image-header
+  {
+    transform:rotate(0deg);
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width:30%;
+    height:70%;
+  }
+  .new{
+    text-align:center;
+  }
+}
